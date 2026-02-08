@@ -6,18 +6,21 @@ SELECT nombre, lenguaje FROM usuarios_lenguajes
 -- Ejercicio 2: Contar cuántos usuarios hay en total.
 -- Tu respuesta aquí
 
-
+SELECT COUNT(*) FROM usuarios_lenguajes;
 
 -- Ejercicio 3: Seleccionar los usuarios mayores de 30 años.
 -- Tu respuesta aquí
 
+SELECT edad FROM usuarios_lenguajes WHERE edad > 30;
 
 -- Ejercicio 4: Contar cuántos usuarios saben JavaScript.
 -- Tu respuesta aquí
 
+SELECT * FROM usuarios_lenguajes WHERE lenguaje IN ('JavaScript');
 
 -- Ejercicio 5 OPCION 2: Seleccionar los usuarios que tienen 28 años. 
 -- Tu respuesta aquí
+
 
 
 -- Ejercicio 6: Encontrar el usuario con el email 'juan.gomez@example.com'.
