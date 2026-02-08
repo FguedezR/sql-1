@@ -21,14 +21,16 @@ SELECT * FROM usuarios_lenguajes WHERE lenguaje IN ('JavaScript');
 -- Ejercicio 5 OPCION 2: Seleccionar los usuarios que tienen 28 años. 
 -- Tu respuesta aquí
 
-
+SELECT * FROM usuarios_lenguajes WHERE edad IN (28);
 
 -- Ejercicio 6: Encontrar el usuario con el email 'juan.gomez@example.com'.
 -- Tu respuesta aquí
 
+SELECT * FROM usuarios_lenguajes WHERE email IN ('juan.gomez@example.com');
 
 -- Ejercicio 7: Seleccionar los usuarios que saben Java y tienen menos de 25 años.
 -- Tu respuesta aquí
+
 
 
 -- Ejercicio 8 OPCION 2: Contar cuántos usuarios con edades diferentes saben el lenguaje 'Java'.
