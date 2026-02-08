@@ -25,7 +25,7 @@ Una vez instalado completamente MySQL haremos la siguiente instalación
 5. Pulsar el botón de download y seguir los pasos de instalación (next, next, next...)
 
 ## Instrucciones
-Usa workbecnch para crear tu BBDD con tu tabla (ver más abajo) y ejecutar cada consulta. 
+Usa workbench para crear tu BBDD con tu tabla (ver más abajo) y ejecutar cada consulta. 
 Todas las preguntas están en el archivo statements.
 
 1. Lee cuidadosamente cada pregunta.

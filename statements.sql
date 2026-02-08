@@ -1,9 +1,11 @@
 -- Ejercicio 1: Seleccionar todos los usuarios y sus lenguajes asociados.
 -- Tu respuesta aquí
 
+SELECT nombre, lenguaje FROM usuarios_lenguajes
 
 -- Ejercicio 2: Contar cuántos usuarios hay en total.
 -- Tu respuesta aquí
+
 
 
 -- Ejercicio 3: Seleccionar los usuarios mayores de 30 años.
